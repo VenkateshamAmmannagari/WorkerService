@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ammannagari.v\\source\\repos\\WebAPI\\LoyaltyService\\Loyalty.WorkerService\\Loyalty.WorkerService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ammannagari.v\\source\\repos\\WebAPI\\LoyaltyService\\Loyalty.WorkerService\\Loyalty.WorkerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ammannagari.v\\source\\repos\\WebAPI\\LoyaltyService\\Loyalty.WorkerService\\Loyalty.WorkerService.csproj",
+        "projectName": "Loyalty.WorkerService",
+        "projectPath": "C:\\Users\\ammannagari.v\\source\\repos\\WebAPI\\LoyaltyService\\Loyalty.WorkerService\\Loyalty.WorkerService.csproj",
+        "packagesPath": "C:\\Users\\ammannagari.v\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ammannagari.v\\source\\repos\\WebAPI\\LoyaltyService\\Loyalty.WorkerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ammannagari.v\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.4, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.4, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.4, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.4, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
